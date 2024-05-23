@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Contatos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="contatos-lista"></div>
+    <form id="contato">
+        <input type="hidden" id="id-contato">
+        <input type="text" id="nome" placeholder="Nome:" required>
+        <input type="email" id="email" placeholder="E-mail:" required>
+        <input type="text" id="foto" placeholder="Link da Foto:">
+        <input type="tel" id="telefone" placeholder="Telefone:">
+        <input type="text" id="endereco" placeholder="Endereço:">
+        <button type="submit" id="ad-button">Adicionar Contato</button>
+        <button type="button" id="sl-button" style="display: none;">Salvar Edições</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
